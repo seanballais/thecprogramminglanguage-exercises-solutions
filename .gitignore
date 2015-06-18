@@ -1,3 +1,7 @@
+# Output folder and its executables
+bin/
+bin/*
+
 # Object files
 *.o
 *.ko
