@@ -1,0 +1,10 @@
+Test Data
+Hi! I’m Sean and I hack code. I hack code in C/C++, C#, Python, Bash, HTML5/CSS3/Javascript, and PHP. There, satisfied? Clearly, no. It’s too brief for an About Me page. So, I’ll share to you more information.
+
+First of all, my full name is Sean Francis N. Ballais. My friends usually call me ‘Sean.’ I went out of my mother’s womb on May 15, 1999, and I currently reside in Tacloban City, Philippines (Yes, the one that was hit by Super Typhoon Haiyan way back in November 8, 2013. But that’s another story for a another blog post). I’m an alumni (Batch 2015) of Philippine Science High School Eastern Visayas Campus. I’m currently enrolling in University of the Philippines Visayas Tacloban College.
+
+As mentioned before, I am a code hacker, better known as a (hobbyist) programmer. I have experience programming in C/C++, Python, Bash, HTML5/CSS3, JavaScript, and PHP. But I have dabbled with Visual Basic, BASIC-256, Perl, and Ruby before. My favorite development tools are Git, Sublime Text 3, and CMake. Soon (when I have the time) I’ll be learning Nodejs, Go, and Vala just to add something to my toolbox. If you have additional technologies you want me to try and learn, just email them to me or comment them below. I’ll appreciate it.
+
+In the field of Computer Science, I am interested in computer graphics, computer vision, artificial intelligence, UI/UX design, web development, human-to-human and human-to-computer interactions, and networking.
+
+Whenever I’m working on a software project, I usually prefer to develop the logical/backend side more than developing the frontend because developing the backend is way more fun than the frontend. Though at times, I would hack into the frontend because I need to link it to the backend or to fix some issue in it.
