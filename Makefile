@@ -9,7 +9,7 @@ MKDIR_P=mkdir -p
 # 				#
 #################
 all: chapter01
-chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09
+chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09 chapter01-exer10
 
 ##################################
 #								 #
@@ -45,3 +45,6 @@ chapter01-exer08: src/chapter01/exer08.c
 
 chapter01-exer09: src/chapter01/exer09.c
 	$(CMP) src/chapter01/exer09.c -o bin/chapter01/exer09
+
+chapter01-exer10: src/chapter01/exer10.c
+	$(CMP) src/chapter01/exer10.c -o bin/chapter01/exer10
