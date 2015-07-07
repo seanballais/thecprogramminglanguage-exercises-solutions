@@ -1,5 +1,5 @@
 CC=cc
-CFLAGS=-Wall -O3
+CFLAGS=-Wall -g
 CMP=$(CC) $(CFLAGS)
 MKDIR_P=mkdir -p
 
@@ -9,7 +9,7 @@ MKDIR_P=mkdir -p
 # 				#
 #################
 all: chapter01
-chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09 chapter01-exer10
+chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09 chapter01-exer10 chapter01-exer12
 
 ##################################
 #								 #
@@ -48,3 +48,8 @@ chapter01-exer09: src/chapter01/exer09.c
 
 chapter01-exer10: src/chapter01/exer10.c
 	$(CMP) src/chapter01/exer10.c -o bin/chapter01/exer10
+
+# Chapter 1 - Exercise 11 has not been included in the build file because the answer is text-only.
+
+chapter01-exer12: src/chapter01/exer12.c
+	$(CMP) src/chapter01/exer12.c -o bin/chapter01/exer12
