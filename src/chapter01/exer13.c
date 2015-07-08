@@ -36,7 +36,7 @@ int main()
     }
 
     // Display the horizontal histogram
-    printf("\nWord Length Histogram\nLength\n");
+    printf("\nWord Length Histogram\nLength\n* = 1 instance\n");
 
     for (int i = 0; i < 6; i++) {
         if (i == 5) {
