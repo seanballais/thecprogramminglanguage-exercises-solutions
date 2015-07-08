@@ -1,5 +1,5 @@
 CC=cc
-CFLAGS=-Wall -g
+CFLAGS=-Wall -g -std=c11
 CMP=$(CC) $(CFLAGS)
 MKDIR_P=mkdir -p
 
@@ -9,7 +9,7 @@ MKDIR_P=mkdir -p
 # 				#
 #################
 all: chapter01
-chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09 chapter01-exer10 chapter01-exer12
+chapter01: chapter01-dir chapter01-exer01 chapter01-exer02 chapter01-exero3 chapter01-exer01 chapter01-exer05 chapter01-exer06 chapter01-exer07 chapter01-exer08 chapter01-exer09 chapter01-exer10 chapter01-exer12 chapter01-exer13
 
 ##################################
 #								 #
@@ -53,3 +53,6 @@ chapter01-exer10: src/chapter01/exer10.c
 
 chapter01-exer12: src/chapter01/exer12.c
 	$(CMP) src/chapter01/exer12.c -o bin/chapter01/exer12
+
+chapter01-exer13: src/chapter01/exer13.c
+	$(CMP) src/chapter01/exer13.c -o bin/chapter01/exer13

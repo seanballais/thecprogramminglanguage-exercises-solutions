@@ -1,0 +1,2 @@
+Exercise 11 Chapter 1 Answer.
+Zero words, one word, 2^32 words. All whitespace, no whitespace, zero length input.
