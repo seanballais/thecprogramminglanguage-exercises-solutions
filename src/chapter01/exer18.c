@@ -25,7 +25,7 @@ int main(void)
                 }
             }
         }
-        
+
         if (wordEndPos >= wordStartPos) {
             for (int char_pos = 0; char_pos < (wordEndPos - wordStartPos) + 1; char_pos++) {
                 outputLine[char_pos] = inputLine[char_pos + wordStartPos];
@@ -34,6 +34,8 @@ int main(void)
             outputLine[(wordEndPos - wordStartPos) + 1] = '\0';
         }
     }
+
+    printf("%s\n", outputLine); // Not part of the exercise but adding this to remove the warning during compilation
 
     return 0;
 }
